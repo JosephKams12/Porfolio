@@ -1,0 +1,34 @@
+body{
+    background-color: #080220;;
+    min-height: 100vh;
+}
+.Name{
+text-align: justify;
+text-transform: uppercase;
+padding: 100px;
+color: #ffffff;
+
+}
+.Name p{
+    text-transform: capitalize;
+}
+span p{
+    font-weight: bolder;
+}
+.Icons img{
+    width: 30px;
+    height: 30px;
+   
+}
+.Icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.Name h1{
+    line-height: 70px;
+    
+}
+.Emeka{
+    color: #FFFFFF;;
+}

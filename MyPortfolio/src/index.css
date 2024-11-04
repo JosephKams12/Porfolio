@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+/* General styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Mobile styles for screens less than 768px */
+  @media (max-width: 768px) {
+    .Nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .Link ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .Link a {
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  }
+  
+  /* Tablet styles for screens between 768px and 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .Nav {
+      padding: 15px 30px;
+    }
+  
+    .Link a {
+      font-size: 15px; /* Adjust font size for tablets */
+    }
+  }
+  

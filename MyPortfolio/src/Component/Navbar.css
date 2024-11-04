@@ -1,0 +1,76 @@
+.Nav{
+    color: #100632;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: #150638 1px solid;
+    
+}
+h1{
+    padding-top: 15px;
+}
+.Nav{
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    gap: 100px;
+}
+
+.Link ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    padding-top: 25px; 
+    gap: 50px;
+}
+
+.Nav ul li{
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.Nav ul :active{
+    background:rgb(19, 5, 69);
+    cursor: pointer;
+}
+.Nav h1{
+    color:  rgb(24, 5, 67);
+    padding-right: 32%;
+}
+
+.First{
+    background: rgb(242, 207, 10);
+    color: #150638;
+}
+.Link ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+.Link a {
+    color: black; /* Default link color */
+  }
+  
+.Link .active {
+    font-weight: bold; /* Example style for the active link */
+    color: rgb(24, 5, 67); /* Highlight color for the active link */
+    border-bottom: 2px solid rgb(8, 4, 60); /* Optional: underline effect */
+  }
+  
+.Link a {
+    color: #77777a;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+.Link a:hover {
+    color: #f3f3f7; /* Teal */
+    
+  }
+
+  
