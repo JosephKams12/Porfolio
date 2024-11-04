@@ -6,7 +6,6 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Project from './Pages/Project';
 import Skills from './Pages/Skills';
-import { color } from './Component/Component1';
 
 function App() {
   return (
