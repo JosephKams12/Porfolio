@@ -5,7 +5,8 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Project from './Pages/Project';
-import Skills from './Pages/Skills';
+import Skills from './Pages/Skills'
+import React from 'react';
 
 function App() {
   return (
@@ -22,9 +23,7 @@ function App() {
       </div>
     </Router>
   );
-  return(
-    color.Provider
-  )
+  
 }
 
 export default App;

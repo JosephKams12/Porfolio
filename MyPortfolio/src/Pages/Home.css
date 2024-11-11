@@ -7,6 +7,7 @@ text-align: justify;
 text-transform: uppercase;
 padding: 100px;
 color: #ffffff;
+display: flex;
 
 }
 .Name p{
@@ -31,4 +32,8 @@ span p{
 }
 .Emeka{
     color: #FFFFFF;;
+}
+.copy img{
+    width: 500px;
+    height: 500px;
 }
